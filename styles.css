@@ -48,14 +48,10 @@ a {
 }
 
 .brand-mark {
-  width: 34px;
-  height: 34px;
-  border: 2px solid var(--brass);
-  border-radius: 8px;
-  background:
-    radial-gradient(circle at center, var(--brass) 0 4px, transparent 5px),
-    linear-gradient(135deg, transparent 36%, var(--brass) 37% 45%, transparent 46%);
-  box-shadow: 0 0 0 4px rgba(210, 178, 74, 0.08);
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 10px rgba(210, 178, 74, 0.18));
 }
 
 nav {
